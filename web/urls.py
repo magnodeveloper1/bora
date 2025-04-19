@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from sitef import views
+# from sitef import views
 
 urlpatterns = [
-    path('bo/', admin.site.urls),
-    path('index/', views.InicioView.as_view())
+    path('bo3x08/', admin.site.urls),
+    # path('index/', views.InicioView.as_view())
 ]
