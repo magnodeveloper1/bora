@@ -184,6 +184,9 @@ class Lazer(models.Model):
         on_delete=models.CASCADE
     )
 
+    def __str__(self):
+        return self.descricao
+
 class Steps(models.Model): # Cada lugar projectado para a viagem
     descricao = models.CharField(
         max_length=200

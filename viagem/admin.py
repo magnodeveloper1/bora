@@ -12,7 +12,7 @@ class EspacoAdmin(admin.ModelAdmin):
     pass
 
 class LazerAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('descricao', 'preco', 'tipo_de_lazer', 'espaco')
 
 class StepsAdmin(admin.ModelAdmin):
     pass
